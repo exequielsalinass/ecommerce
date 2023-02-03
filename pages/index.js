@@ -1,8 +1,10 @@
+import BasicLayout from '../layout/BasicLayout'
+
 export default function Home() {
   return (
-    <div className="hola">
-      <h1>Estamos en Next</h1>
-    </div>
+    <BasicLayout>
+      <h1>Estamos en la HOME</h1>
+    </BasicLayout>
   );
 }
 

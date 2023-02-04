@@ -1,3 +1,5 @@
+import Header from "../../components/Header";
+
 import { Container } from "semantic-ui-react";
 
 function BasicLayout(props) {
@@ -5,6 +7,7 @@ function BasicLayout(props) {
 
   return (
     <Container fluid className="basic-layout">
+      <Header />
       <Container className="content">{children}</Container>
     </Container>
   );

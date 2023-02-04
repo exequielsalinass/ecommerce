@@ -1,12 +1,13 @@
-import TopBar from "./TopBar"
+import TopBar from "./TopBar";
+import Menu from "./Menu";
 
 function Header() {
   return (
     <div className="header">
-        <TopBar/>
-        <div>Menu</div>
+      <TopBar />
+      <Menu />
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;
